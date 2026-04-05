@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Кофеня</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header__container container">
+            <a href="/" class="site-header__logo">
+                <h1 class="logo-heading">Кофеня</h1>
+            </a>
+
+            <nav class="header__nav" aria-label="Основная  навигация">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a class="nav__link" href="#">О кофейне</a></li>
+                    <li class="header__menu-item"><a class="nav__link" href="#">Меню</a></li>
+                    <li class="header__menu-item"><a class="nav__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="heading__section">
+            <div class="heading__container container">
+                <div class="heading_card">
+                    <div class="img__card ">
+                        <div class="heading__img-1"></div>
+                        <div class="heading__img-2"></div>
+                        <div class="heading__img-3"></div>
+                        <div class="heading__img-4"></div>
+                    </div>
+
+                    <div class="quote__card">
+                        <blockquote class="review__quote" cite="https://madeo.ru/collection/kofejnye-citaty/">
+                            <p class="quote__text">Кофе — это удивительный напиток, который согревает весь мир.</p>
+                        </blockquote>
+                        <span class="quote__author">
+                            Дэвид Юм (шотландский философ)
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Adout">
+            <h2 class="heading__section">О кофейне</h2>
+            <div class="adout__container container">
+                <section class="adout__history">
+                    <p class="text__history">Кофеня - первая кофейня в нашем городе с оригинальным названием, у нас
+                        царит спокойная и уютная атмосфера и очень вкусный кофе</p>
+                    <div class="Adout__img-1"></div>
+                    <div class="Adout__img-2"></div>
+                </section>
+            </div>
+        </section>
+
+        <section class="menu">
+            <h2 class="heading__section">Меню</h2>
+            <div class=" menu__container container">
+                <div class="menu__block">
+                    <article class="menu__card">
+                        <div class="menu__img-1"></div>
+                        <h3 class="menu__heading">Эспрессо</h3>
+                        <span class="menu__price">130 р</span>
+                    </article>
+
+                    <article class="menu__card ">
+                        <div class="menu__img-2"></div>
+                        <h3 class="menu__heading">Капучино</h3>
+                        <span class="menu__price">190 р</span>
+                    </article>
+
+                    <article class="menu__card">
+                        <div class="menu__img-3"></div>
+                        <h3 class="menu__heading">Латте</h3>
+                        <span class="menu__price">210 р</span>
+                    </article>
+
+                    <article class="menu__card">
+                        <div class="menu__img-4"></div>
+                        <h3 class="menu__heading">Раф</h3>
+                        <span class="menu__price">180 р</span>
+                    </article>
+
+                    <article class="menu__card">
+                        <div class="menu__img-5"></div>
+                        <h3 class="menu__heading">Американо</h3>
+                        <span class="menu__price">180 р</span>
+                    </article>
+
+                    <article class="menu__card">
+                        <div class="menu__img-6"></div>
+                        <h3 class="menu__heading">Гляссе</h3>
+                        <span class="menu__price">200 р</span>
+                    </article>
+
+                    <article class="menu__card">
+                        <div class="menu__img-7"></div>
+                        <h3 class="menu__heading">Горячий шоколад</h3>
+                        <span class="menu__price">170 р</span>
+                    </article>
+
+                    <article class="menu__card">
+                        <div class="menu__img-8"></div>
+                        <h3 class="menu__heading">Какао</h3>
+                        <span class="menu__price">230 р</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="heading__section">Контакты</h2>
+            <div class=" contact__container container">
+                <div class="contact__map" id="map">
+                    <!-- JS --><iframe class="map"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aваш_конструктор&source=constructor"
+                        width="745" height="400" frameborder="0">
+                    </iframe>
+
+
+                </div>
+
+                <div class="contact__card">
+                    <h3 class="contact__heading">Кофейня на ленина</h3>
+                    <Address class="contact__items">Улица пушкинса</Address>
+                    <Address class="contact__items">Дом колотушкинса</Address>
+                    <Address class="contact__items">На углу за киномаксом</Address>
+
+                    <h3 class="contact__heading">Заказ кофе</h3>
+                    <a href="/" class="contact__items">8 (343) 58-98-99</a>
+                    <a href="/" class="contact__items">8 (343) 57-97-97</a>
+                    <button class="contact__btn" id="contact__btn">Позвонить нам</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer__container container">
+            <div class="card__block">
+                <div class="footer__card">
+                    <span class="footer__item">ИП. Рохслинс Н.Е</span>
+                    <a href="/">8 (343) 58-98-99</a>
+                </div>
+                <div class="footer__contact footer__item">
+                    <a href="/">Вконтакте</a>
+                </div>
+            </div>
+
+            <small class="footer__smail footer__item">©NR</small>
+        </div>
+    </footer>
+
+</body>
+
+</html>
